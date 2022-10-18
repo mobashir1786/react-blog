@@ -17,7 +17,7 @@ const Hollywood = () => {
                             <Card
                                 key={n.id}
                                 articleid={n.id}
-                                imgUrl={n.Image}
+                                imgUrl={n.img}
                                 title={n.title}
                                 description={n.description.slice(0, 200)}
                             />
@@ -32,7 +32,7 @@ const Hollywood = () => {
                             <SmallCard
                                 key={n.id}
                                 articleid={n.id}
-                                imgUrl={n.Image}
+                                imgUrl={n.img}
                                 description={n.description.slice(0, 200)}
                                 title={n.title.slice(0, 25)}
                             />
