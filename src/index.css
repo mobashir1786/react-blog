@@ -290,7 +290,7 @@ img {
     width: 100%;
   }
   .home__first {
-    width: 100%;
+    display: none;
   }
   .rightbar2 {
     width: 100%;
